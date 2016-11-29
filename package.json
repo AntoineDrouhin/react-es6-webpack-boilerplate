@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --color --inline --hot",
-    "build":"webpack --progress --color --inline"
+    "build":"webpack -p --config ./webpack.production.config.js"
   },
   "author": "",
   "license": "MIT",
