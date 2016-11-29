@@ -13,8 +13,9 @@ module.exports = {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
       { test: /\.css$/, loader: "style!css" }
-    ],
-    plugins:[
+    ]
+  },
+  plugins:[
     new webpack.DefinePlugin({
       'process.env':{
         'NODE_ENV': JSON.stringify('production')
@@ -25,4 +26,5 @@ module.exports = {
         warnings: true
       }
     })
-  }};
+  ]
+};
