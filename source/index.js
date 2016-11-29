@@ -1,11 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
 
+import HelloWorld from './HelloWorld'
 
-const name = 'Anis'
-const helloWorld = <h1>Hello {name}</h1>
 
 render(
-  helloWorld ,
+  <HelloWorld name="Anis" /> ,
   document.getElementById('root')
 )
