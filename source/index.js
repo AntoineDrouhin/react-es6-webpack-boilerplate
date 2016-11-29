@@ -1,9 +1,11 @@
 import React from 'react'
-import { render } from 'react-dom'
 import HelloWorld from './HelloWorld'
+import { render } from 'react-dom'
+import { Button } from 'react-bootstrap/lib/Button';
 
+const textButton = 'Click ME'
 
 render(
-  <HelloWorld name="World" />,
+  <HelloWorld name="ANis" />,
   document.getElementById('root')
 )
